@@ -1,33 +1,59 @@
 # GenomeInsight 🧬
+# GenomeInsight 🧬
 
-GenomeInsight is a simple Python-based bioinformatics tool for DNA sequence analysis.
+GenomeInsight is a Python-based bioinformatics toolkit for DNA and RNA sequence analysis.
 
-## Features
+---
+
+## 🚀 Features
+
+### 1️⃣ DNA Analysis
 - Calculate GC Content
 - Count nucleotide frequencies
-- Basic DNA sequence analysis
+- Sequence length calculation
 
-## Project Structure
+### 2️⃣ Transcription
+- Convert DNA → RNA
+- Automatic uppercase validation
 
-GenomeInsight/
-│
-├── main.py
-├── gc_content.py
-├── sequence_utils.py
-└── README.md
+### 3️⃣ Full Codon-Based Translation
+- Complete genetic codon table (64 codons)
+- Start codon (AUG) detection
+- Stop codon (UAA, UAG, UGA) handling
+- Proper ORF (Open Reading Frame) detection
+- Returns translated protein sequence
 
-## Example
+---
 
-Input DNA Sequence:
-ATGCGCTA
+## 🧪 Example Workflow
+
+Input DNA:
+```
+ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG
+```
 
 Output:
-Sequence Length: 8
-G count: 2
-C count: 2
-GC Content: 50%
+```
+RNA Sequence: AUGGCCAUUGUAAUGGGCCGCUGAAAGGGUGCCCGAUAG
+Protein Sequence: MAIVMGR
+```
 
-## Technologies Used
+---
 
-- Python
-- Basic Bioinformatics Concepts
+## 🛠 Tech Stack
+- Python 3.x
+- Standard Python libraries
+
+---
+
+## 🎯 Future Improvements
+- Reverse Complement calculation
+- 6-frame translation
+- FASTA file input support
+- Mutation analysis module
+
+---
+
+## 👨‍💻 Author
+Manpreet Singh  
+BSc Biotechnology Student | Aspiring Bioinformatics Developer
